@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DOM Project</title>
+  </head>
+  <body>
+    <div class="body">
+      <header>
+        <div class="header-container">
+          <div>
+            <h1>Item Lister</h1>
+          </div>
+          <div>
+            <input type="text" id="search" placeholder="Search Items" />
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="top-input">
+          <h2>Add Items</h2>
+          <form id="addForm" action="">
+            <input type="text" id="item" />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="display">
+          <h2>Items</h2>
+          <ul id="items">
+            <li>Item 1 <button class="btn">X</button></li>
+            <li>Item 2 <button class="btn">X</button></li>
+            <li>Item 3 <button class="btn">X</button></li>
+            <li>Item 4 <button class="btn">X</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
